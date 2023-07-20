@@ -1,1 +1,95 @@
 /* Write your CSS here! */
+body {
+    font-size: 11pt;
+    font-family: 'Verdana', sans-serif;/*setting font size*/
+    color:black;/*color of the text*/
+    background-color: #F6F6F2;/**/
+    height: 100vh; /*100% of viewport height*/
+    width: 100vw; /*100% of viewport width*/
+    margin: 0px;/*setting it to 0 as a standard*/
+    padding: 0px;
+    box-sizing: border-box;/*Used to override any default browser setting.*/
+
+
+}
+
+
+header {
+    color: black;/*Color of the text on the header*/
+    background-color:#6FB3B8;/*Box around the textbox*/
+    text-align: center;/*centers the text in the middle of the page*/
+    width: 100%;
+    padding: 5px 5px;/*spacing between the text and the permimeter of the box.*/
+}
+
+
+main {
+    max-width: 800px;
+    margin: 30px auto; /*top and bottom, left and right margins*/
+
+
+}
+
+
+section {
+
+
+    color: black;/*Color of the text on the header*/
+    background-color:  #C2EDCE;/*Box around the textbox*/
+    text-align: center;/*centers the text in the middle of the page*/
+    width: 100%;
+    padding: 5px 5px;/*spacing between the text and the permimeter of the box.*/
+
+
+}
+
+
+footer {
+    color:black;/*Color of the text on the footer*/
+    text-align: center;
+    background-color: #6FB3B8;
+    width: 100%;
+    padding: 5px 5px;/*spacing between the text and the permimeter of the box.*/
+}
+article {
+
+
+    color: black;/*Color of the text on the header*/
+    background-color: #49818d;/*Box around the textbox*/
+    text-align: center;/*centers the text in the middle of the page*/
+    width: 100%;
+    padding: 5px 5px;/*spacing between the text and the permimeter of the box.*/
+
+
+}
+.img-md {
+   
+    max-height: 600px;/*limit height of images */
+    max-width: 600px;/*limit width */
+}
+
+
+#mainHeading {
+    background-color: red;/*Assigning ID of mainHeading and giving the id Selector color red.*/
+    text-align: center;
+    margin: 8px;
+}
+
+
+#testP {
+    background-color: rgb(135, 240, 135); /*Assigning the ID of testP and using the class selector to give the color green*/
+    text-align: center;
+    margin: 8px;/*Giving a margin of 8px*/
+}
+
+
+.center
+{
+    text-align: center;/*centering the list number*/
+    list-style-position: inside;
+}
+ol.center li
+{
+text-align: left;
+margin-left: 43%;
+}
